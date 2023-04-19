@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="searchbox">
+        <i class="fa fa-location-dot"></i>
+        <input type="text" placeholder="Search your location" />
+        <button class="fa-solid fa-magnifying-glass"></button>
+      </div>
+      <div class="loc-not-found">
+        <img src="src/img/404.png" alt="not-found" />
+        <p>Ooops! Invalid location</p>
+      </div>
+      <div class="box-weather">
+        <img src="" alt="" />
+        <p class="temp"></p>
+        <p class="desc"></p>
+      </div>
+      <div class="details-of-weather">
+        <div class="humid">
+          <i class="fa fa-droplet"></i>
+          <div class="details">
+            <span></span>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="wind">
+          <i class="fa fa-wind"></i>
+          <div class="details">
+            <span></span>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/98d02758b8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="src/script.js"></script>
+  </body>
+</html>
